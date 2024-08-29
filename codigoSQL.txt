@@ -1,0 +1,16 @@
+CREATE TABLE usuarios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    cpf VARCHAR(11) NOT NULL UNIQUE,
+    senha VARCHAR(255) NOT NULL,
+    nivel INT NOT NULL,
+    foto LONGBLOB
+);
+
+CREATE TABLE contas (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    cpf VARCHAR(11) NOT NULL,
+    saldo DECIMAL(10, 2) NOT NULL DEFAULT 0.00,
+    emprestimo DECIMAL(10, 2) NOT NULL DEFAULT 0.00,
+    FOREIGN KEY (cpf) REFERENCES usuarios(cpf)
+);
