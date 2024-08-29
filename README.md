@@ -1,6 +1,6 @@
 # Sistema Bancário
 
-Bem-vindo ao repositório do **Sistema Bancário**! Este projeto é uma aplicação web que simula operações bancárias básicas, como autenticação de usuários, depósitos, retiradas e consultas de saldo.
+Bem-vindo ao meu projeto de **Sistema Bancário**! Este projeto é uma aplicação web que simula operações bancárias básicas, como autenticação de usuários, depósitos, retiradas e consultas de saldo.
 
 ## Funcionalidades
 
